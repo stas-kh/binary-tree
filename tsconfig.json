@@ -1,0 +1,11 @@
+{
+  "files": [
+    "src/components/node.ts",
+    "src/components/binaryTree.ts",
+    "src/app.ts"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5"
+  }
+}

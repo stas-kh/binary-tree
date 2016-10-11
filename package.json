@@ -1,0 +1,31 @@
+{
+  "name": "binary-tree",
+  "version": "1.0.0",
+  "description": "Binary tree implemented using TypeScript",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stas-kh/binary-tree.git"
+  },
+  "keywords": [
+    "binary-tree",
+    "typescript"
+  ],
+  "author": "StasKh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stas-kh/binary-tree/issues"
+  },
+  "homepage": "https://github.com/stas-kh/binary-tree#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.2",
+    "tsify": "^2.0.2",
+    "typescript": "^2.0.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
