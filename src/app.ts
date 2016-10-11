@@ -3,20 +3,18 @@ import Node from "./components/node";
 
 let BT = new BinaryTree();
 
-BT.add(new Node(33));
-BT.add(new Node(5));
-BT.add(new Node(35));
-BT.add(new Node(1));
-BT.add(new Node(20));
-BT.add(new Node(99));
-BT.add(new Node(4));
-BT.add(new Node(17));
-BT.add(new Node(31));
+BT.add(new Node(95));
+BT.add(new Node(103));
+BT.add(new Node(96));
+BT.add(new Node(97));
+BT.add(new Node(170));
+BT.add(new Node(120));
+BT.add(new Node(110));
+BT.add(new Node(104));
+BT.add(new Node(105));
 
 console.log(JSON.stringify(BT, null, 4));
 
-BT.remove(5);
-BT.remove(99);
-BT.remove(33);
+BT.remove(103);
 
 console.log(JSON.stringify(BT, null, 4));

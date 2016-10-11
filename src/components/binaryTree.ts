@@ -74,14 +74,14 @@ export default class BinaryTree {
                     foundNode.key = null;
                     this.removeNullLeaf(parentNode);
                 } else {
-                    // case when node doesn't contain right node, buy has left node;
+                    // case if node contains left node
                     let leftNode = foundNode.left;
                     foundNode.key = leftNode.key;
                     foundNode.right = leftNode.right;
                     foundNode.left = leftNode.left;
                 }
             } else {
-                // case if node has right child
+                // case if node contains right node
                 let leftMost = foundNode.right,
                     parentLeft = null;
                 if (leftMost.left !== null) {
